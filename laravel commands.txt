@@ -1,0 +1,15 @@
+git clone 'link projer github'
+
+composer install
+
+copy .env.example .env
+
+php artisan key:generate
+
+npm install && npm run dev
+
+php artisan migrate
+
+php artisan db:seed
+
+php artisan serve
